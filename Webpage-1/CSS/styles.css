@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+.Mainnav {
+    padding: 10px;
+    display: inline-block;
+    
+ }
+.Mainnav img{
+    margin: 10px;
+    padding: 10px;
+    height :60px;
+    width :90px;
+}
+.Home,.school,.team,.place,.contact,.about{
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid white;
+    height: 20px;
+    width: 60px;
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.navbar {
+     display: inline-block; 
+    position: absolute;
+    left: 400px;
+    border-bottom: 2px solid black;
+
+}
+/* .bob .sec1{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\bg-design1.png");
+    float: left;
+    width: 70%;
+    position: absolute;
+    bottom: 0px;
+
+} */
+
+.image .imageleft{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\bg-design1.png");
+    background-color: brown;
+}
+/* .bob .sec2 {
+    float: right;
+    width: 83%;
+  position: absolute;
+  top: 10px;
+   right: 0px;
+   
+}
+.bob .sec3 {
+    float: right;
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 20px;
+    background-blend-mode:multiply;
+} */

@@ -1,0 +1,191 @@
+body {
+    background-color: #fffcf7;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.Mainnav {
+    padding: 10px;
+    display: inline-block;
+    
+ }
+.Mainnav img{
+    margin: 20px;
+    padding: 10px;
+    height :60px;
+    width :90px;
+    position: absolute;
+    top:10px;
+    left: 0px;
+}
+.Home,.school,.team,.place,.contact,.about{
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #fffcf7;
+    height: 20px;
+    width: 90px;
+    background-color: #fffcf7;
+    font-family: 'Arnika';
+    font-style:normal;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.navbar {
+     display: inline-block; 
+    position: absolute;
+    left: 400px;
+    border-bottom: 2px solid black;
+
+}
+.leftimage{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\bg-design1.png");
+    height: 800px;
+    width: 800px;
+    background-size: 100%;
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: -100px;
+}
+.leftimage1{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\img2.png");
+    height: 160px;
+    width: 160px;
+    background-size: 100%;
+    float: left;
+    position: absolute;
+    top: 600px;
+    left: 370px;
+}
+.leftimage2{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\img1.png");
+    filter: grayscale(100%);
+    height: 90px;
+    width: 90px;
+    background-size: 100%;
+    float: left;
+    position: absolute;
+    top: 550px;
+    left: 285px;
+}
+.rightimage{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\img4.jpg");
+    height: 500px;
+    width: 500px;
+    background-size: 100%;
+    border-radius: 120%;
+    float: right;
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    mix-blend-mode:multiply;
+    
+}
+.rightimage2{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\bg-design-2.png");
+    height: 700px;
+    width: 800px;
+    background-size: cover;
+    float: right;
+    position: absolute;
+    top: -60px;
+    left: 500px;
+    mix-blend-mode:multiply;
+}
+.circle1{
+    border: 4px solid black;
+    border-radius: 120%;
+    height: 200px;
+    width: 800px;
+    rotate: 145deg;
+    position: relative;
+    top: 250px;
+    left: 700px;
+} 
+.circle2{
+    border: 4px solid black;
+    border-radius: 150%;
+    height: 150px;
+    width: 600px;
+    rotate: 25deg;
+    position: relative;
+    top: 100px;
+    left: 780px;
+}
+.rightimage3{
+    background-image: url("D:\\Study\\Projects\\Webpage-1\\Images\\img3.png");
+    filter: grayscale(100%);
+    height: 180px;
+    width: 180px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    float: right;
+    position: absolute;
+    left:1310px;
+    top:200px;
+    mix-blend-mode:multiply;
+   
+}
+.textcenter1{
+    font-family: 'Arnika';
+    font-size: 130px;
+    position: relative;
+    top: -200px;
+    left: 150px;
+}
+.textcenter2{
+    font-family: 'Arnika';
+    font-size: 130px;
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+.textcenter3{
+    font-family: 'Arnika';
+    font-size: 130px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -1060px;
+    right: 50px;
+}
+.textcenter4{
+    font-family: 'Arnika';
+    font-size: 50px;
+    position: relative;
+    top: -430px;
+    left: 550px;
+}
+.textcenter5{
+    font-family: 'FONTSPRING DEMO - Flink Medium';
+    line-height: 1.4;
+    font-size: 15px;
+    text-align: right;
+    height: 100px;
+    width: 170px;
+    position: relative;
+    top: -650px;
+    left: 150px;
+}
+.Readmore{
+    font-family: 'FONTSPRING DEMO - Flink Medium';
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    border: 3px solid black;
+    box-shadow: -5px 5px ;
+      height: 10px;
+    width: 80px;
+    position: relative;
+    top: -650px;
+    left: 370px;
+}
+.points li{
+    font-size: 40px;
+    font-weight: bold;
+    list-style:circle;
+    position: relative;
+    left: 40px;
+    top: -850px;
+}
